@@ -18,7 +18,7 @@ and **HyperTML**
     <div class="draggable rect" uid="drag14"></div>
     <div class="draggable rect" uid="dr4ag14"></div>
 
-    <div class="drop rect" uid="drop1"></div>
+    <div class="drop rect" uid="dr32323op1"></div>
     <div class="drop rect" uid="drop31"></div>
 
 ```
@@ -67,3 +67,6 @@ and **HyperTML**
 ```
 
 **Also, when element becomes draggable, `.ghost` class is added to its cloned ghost**
+Codepen: 
+
+
