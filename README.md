@@ -10,12 +10,17 @@ initDraggy();
 
 and **HyperTML**
 ```HTML
+    <!--UID can be anything, but it has to be unique(different, or not same) for every element-->
+    <!--add class = draggable for elements that you will drag, and class = drop, for elements which u will use for dropping objects in. -->
+    <!-- also don't forget rect class, its used in initialization for some stuff -->
+
     <div class="draggable rect" uid="drag1"></div>
     <div class="draggable rect" uid="drag14"></div>
     <div class="draggable rect" uid="dr4ag14"></div>
 
     <div class="drop rect" uid="drop1"></div>
     <div class="drop rect" uid="drop31"></div>
+
 ```
 
 
