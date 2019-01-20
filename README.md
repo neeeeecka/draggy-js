@@ -70,10 +70,7 @@ and **HyperTML**
 
 Codepen example: 
 
-<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="result" data-user="blackstormx" data-slug-hash="KbjdJx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Cross platform drag and drop">
-  <span>See the Pen <a href="https://codepen.io/blackstormx/pen/KbjdJx/">
-  Cross platform drag and drop</a> by blackstormx (<a href="https://codepen.io/blackstormx">@blackstormx</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
+<iframe height="265" style="width: 100%;" scrolling="no" title="Cross platform drag and drop" src="//codepen.io/blackstormx/embed/KbjdJx/?height=265&theme-id=0&default-tab=resultundefined" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/blackstormx/pen/KbjdJx/'>Cross platform drag and drop</a> by blackstormx
+  (<a href='https://codepen.io/blackstormx'>@blackstormx</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
