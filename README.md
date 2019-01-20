@@ -66,3 +66,4 @@ and **HyperTML**
 
 ```
 
+**Also, when element becomes draggable, .ghost class is added to its cloned ghost**
