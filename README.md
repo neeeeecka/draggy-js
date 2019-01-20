@@ -68,6 +68,5 @@ and **HyperTML**
 
 **Also, when element becomes draggable, `.ghost` class is added to its cloned ghost**
 
-Codepen example: 
+click here for [Codepen example](https://codepen.io/blackstormx/full/KbjdJx) 
 
-<script>alert("hi")</script>
