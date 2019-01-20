@@ -3,6 +3,7 @@ Some cool cross platform html5 js stuff that is useful
 
 # draggy
 *smol html5 drag-n-drop lookalike boi*
+click here for [Codepen example](https://codepen.io/blackstormx/full/KbjdJx) 
 
 **Simple initialization JS and HTML**
 
@@ -70,7 +71,7 @@ and **HyperTML**
 
 **Also, when element becomes draggable, `.ghost` class is added to its cloned ghost, that way you can access its ghost style**
 
-click here for [Codepen example](https://codepen.io/blackstormx/full/KbjdJx) 
+click here for [Codepen example if you're too lazy to scroll up again](https://codepen.io/blackstormx/full/KbjdJx) 
 
 _don't worry about performance, i use window.requestAnimationFrame and transform: translate :)_
 
