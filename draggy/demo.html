@@ -1,0 +1,51 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="s.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div class="container">
+    <h1>Hold for 0.5 seconds to make elements draggable</h1>
+
+    <div class="draggable rect" uid="drag1"></div>
+    <div class="draggable rect" uid="drag14"></div>
+    <div class="draggable rect" uid="dr4ag14"></div>
+
+    <div class="drop rect" uid="drop1"></div>
+    <div class="drop rect" uid="drop31"></div>
+    <div id="dragstate">pointer state: none</div>
+    <div id="state">none</div>
+
+</div>
+
+<script src="draggy.min.js"></script>
+
+<script>
+    initDraggy({
+        onStart: function (obj) {
+            $("#state").html("start");
+
+        },
+        onEnable: function (obj) {
+            $("#state").html("enabled");
+
+        },
+        onDrag: function (obj) {
+            $("#state").html("dragging");
+
+        },
+        onHalt: function (obj) {
+            $("#state").html("halt");
+
+        },
+        onDrop: function (obj, target) {
+            $("#state").html("drop");
+
+        },
+        dragStartTime: 0.3,
+        pointerState: function (pstate) {
+            $("#dragstate").html("pointer state is: " + pstate);
+        }
+
+
+    });
+</script>
