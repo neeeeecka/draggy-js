@@ -2,11 +2,22 @@
 Some cool cross platform html5 js stuff that is useful
 
 # draggy
-**Simple initialization**
+**Simple initialization JS and HTML**
 
 ```javascript
 initDraggy();
 ```
+
+and **HyperTML**
+```HTML
+    <div class="draggable rect" uid="drag1"></div>
+    <div class="draggable rect" uid="drag14"></div>
+    <div class="draggable rect" uid="dr4ag14"></div>
+
+    <div class="drop rect" uid="drop1"></div>
+    <div class="drop rect" uid="drop31"></div>
+```
+
 
 **customized init(all parameters are optional)**
 
