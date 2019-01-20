@@ -3,7 +3,8 @@ Some cool cross platform html5 js stuff that is useful
 
 # draggy
 *smol html5 drag-n-drop lookalike boi*
-click here for [Codepen example](https://codepen.io/blackstormx/full/KbjdJx) 
+
+click here for [Codepen](https://codepen.io/blackstormx/full/KbjdJx) 
 
 **Simple initialization JS and HTML**
 
