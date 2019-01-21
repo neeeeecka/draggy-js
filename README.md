@@ -37,7 +37,7 @@ and **HyperTML**
         //time (in seconds) for element to become draggable after user touches(or clicks) it. (can be 0 or anything, not sure about negative time though)
         dragStartTime: 0.3,
         
-        <!-- each callback returns jquery obj -->
+        //each callback returns jquery object (obj)
         //fired when user just clicked(or touched) draggable object.
         onStart: function (obj) {
             $("#state").html("start");
