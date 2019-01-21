@@ -1,6 +1,8 @@
 # cross-platfrom-js
 Some cool cross platform html5 js stuff that is useful
 
+**this code needs Jquery**
+
 # draggy
 *smol html5 drag-n-drop lookalike boi*
 
