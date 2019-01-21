@@ -1,4 +1,6 @@
 function initDraggy(settings) {
+    console.log("init");
+
     if (settings === undefined) {
         settings = {
             dragStartTime: 0.5
