@@ -16,6 +16,7 @@ initDraggy();
 
 and **HyperTML**
 ```HTML
+   
     <!--UID can be anything, but it has to be unique(different, or not same) for every element-->
     <!--add class = draggable for elements that you will drag, and class = drop, for elements which u will use for dropping objects in. -->
     <!-- also don't forget rect class, its used in initialization for some stuff -->
@@ -36,6 +37,7 @@ and **HyperTML**
         //time (in seconds) for element to become draggable after user touches(or clicks) it. (can be 0 or anything, not sure about negative time though)
         dragStartTime: 0.3,
         
+        <!-- each callback returns jquery obj -->
         //fired when user just clicked(or touched) draggable object.
         onStart: function (obj) {
             $("#state").html("start");
