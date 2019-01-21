@@ -2,6 +2,7 @@
 Some cool cross platform html5 js stuff that is useful
 
 **this code needs Jquery**
+grab [cdn](https://cdn.jsdelivr.net/gh/blackstormx/cross-platfrom-js/draggy/draggy.min.js)
 
 # draggy
 *smol html5 drag-n-drop lookalike boi*
