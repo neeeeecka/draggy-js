@@ -39,6 +39,7 @@ and **HyperTML**
 **customized init(all parameters are optional)**
 
 ```javascript
+initDraggy({
         //time (in seconds) for element to become draggable after user touches(or clicks) it. (can be 0 or anything, not sure about negative time though)
         dragStartTime: 0.3,
         
@@ -76,6 +77,7 @@ and **HyperTML**
         pointerState: function (pstate) {
             $("#dragstate").html("pointer state is: " + pstate);
         }
+});
 
 ```
 
