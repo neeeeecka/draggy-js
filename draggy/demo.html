@@ -17,35 +17,39 @@
 
 </div>
 
-<script src="draggy.min.js"></script>
+<script src="draggy.source.js"></script>
 
 <script>
-    initDraggy({
-        onStart: function (obj) {
+    Draggy.init({
+        onStart: function (e) {
             $("#state").html("start");
 
         },
-        onEnable: function (obj) {
+        onEnable: function () {
             $("#state").html("enabled");
 
         },
-        onDrag: function (obj) {
+        onDrag: function () {
             $("#state").html("dragging");
 
         },
-        onHalt: function (obj) {
+        onHalt: function () {
             $("#state").html("halt");
 
         },
-        onDrop: function (obj, target) {
+        onDrop: function (target) {
             $("#state").html("drop");
-
+        },
+        allowDrag: function (e) {
+            return true;
+        },
+        allowDrop: function (e, target) {
+            $(this).appendTo(target);
+            return true;
         },
         dragStartTime: 0.3,
         pointerState: function (pstate) {
             $("#dragstate").html("pointer state is: " + pstate);
         }
-
-
     });
 </script>
